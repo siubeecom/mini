@@ -1,20 +1,10 @@
-head>
-<style> .city {
-}
-background-color: gray; color: white;
-border: 2px solid black;
-margin: 20px;
-padding: 20px;
-</style> </head>
+
+<! DOCTYPE html>
+<html>
 <body>
-<div class=" city">
-<h2>London</h2>
-<p>London is the capital of England. </p> </div>
-<div class="city">
-<h2>Paris</h2>
-<p>Paris is the capital of France. </p> </div>
-<div class="city'">
-<h2>Tokyo</h2>
-<p>Tokyo is the capital of Japan.</p> </div>
+<h2>Iframe Target for a Link</h2>
+<iframe src="demo_iframe.htm"
+name='"iframe_a" height="300px" width="100%" title="Iframe Example"> </iframe>
+<p><a href="https://www.w3schools . com" target="iframe_a">W3Schools.com</a></p>
+<p>When the target attribute of a link matches the name of an iframe, the link will open in the iframe. </p>
 </body> </html>
-# mini
